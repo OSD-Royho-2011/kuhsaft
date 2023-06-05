@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.license = 'MIT'
 
-  s.add_development_dependency 'rspec-rails', '~> 3.0.1'
+  s.add_development_dependency 'rspec-rails', '>= 3.0.1'
   s.add_development_dependency 'rspec-activemodel-mocks'
   s.add_development_dependency 'factory_girl_rails'
   s.add_development_dependency 'capybara', '>= 2.0'
@@ -51,11 +51,11 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'better_errors'
   s.add_development_dependency 'binding_of_caller'
   s.add_development_dependency 'rubocop'
-  s.add_dependency 'sass-rails', '~> 4.0.2'
+  s.add_dependency 'sass-rails', '>= 4.0.2'
 
   # Rails 4 compatibility
-  s.add_dependency 'rails', '~> 4.0.2'
-  s.add_dependency 'simple_form', '~> 3.1.0'
+  s.add_dependency 'rails', '>= 4.0.2'
+  s.add_dependency 'simple_form', '>= 3.1.0'
   s.add_dependency 'jquery-ui-rails'
   s.add_dependency 'bourbon'
   s.post_install_message = <<-MESSAGE
